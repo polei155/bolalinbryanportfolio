@@ -1,7 +1,7 @@
 <div class="container-fluid">
   <div class="navigation-container container">
     <div class="logo">
-      <img src="/assets/images/header/bryLogo-DarkBG.png" alt="bry">
+      <img src="./assets/images/header/bryLogo-DarkBG.png" alt="bry">
     </div>
     <div class="nav-menu">
       <ul>
@@ -16,7 +16,7 @@
       </ul>
     </div>
     <div class="nav-menu-mobile">
-      <span (click)="isMenuOpen=!isMenuOpen" class="hamburger"><img src="/assets/images/hamburger.png" alt=""></span>
+      <span (click)="isMenuOpen=!isMenuOpen" class="hamburger"><img src="./assets/images/hamburger.png" alt=""></span>
       <div *ngIf="isMenuOpen" class="menuNavigation">
         <ul>
           <li *ngFor="let navD of listNav; let i = index" (click)="selectNavDesk(navD.link,i)">

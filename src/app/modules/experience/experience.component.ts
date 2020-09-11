@@ -42,13 +42,13 @@ export class ExperienceComponent implements OnInit {
     let timelineSlider = Array.from(document.getElementsByClassName('timeline-slider') as HTMLCollectionOf<HTMLElement>);
     this.bgSelectedIndex = sliderNum;
     if (this.bgSelectedIndex == 0) {
-      timelineSlider[0].style.backgroundImage = "url('/assets/images/work-exp/sliderbg1.jpg'), linear-gradient(to left, rgba(0,0,0,0.5) , transparent)"
+      timelineSlider[0].style.backgroundImage = "url('./assets/images/work-exp/sliderbg1.jpg'), linear-gradient(to left, rgba(0,0,0,0.5) , transparent)"
     }
     if (this.bgSelectedIndex === 1) {
-      timelineSlider[0].style.backgroundImage = "url('/assets/images/work-exp/sliderbg2.jpg'), linear-gradient(to left, rgba(0,0,0,0.5) , transparent)"
+      timelineSlider[0].style.backgroundImage = "url('./assets/images/work-exp/sliderbg2.jpg'), linear-gradient(to left, rgba(0,0,0,0.5) , transparent)"
     }
     if (this.bgSelectedIndex === 2) {
-      timelineSlider[0].style.backgroundImage = "url('/assets/images/work-exp/sliderbg3.jpg'), linear-gradient(to left, rgba(0,0,0,0.5) , transparent)"
+      timelineSlider[0].style.backgroundImage = "url('./assets/images/work-exp/sliderbg3.jpg'), linear-gradient(to left, rgba(0,0,0,0.5) , transparent)"
     }
   }
   selectTimeline(e) {
