@@ -1,0 +1,77 @@
+.banner {
+  color: white;
+  background-image: url("../../assets/images/bg-kv.jpg");
+  background-position: 100%;
+  height: 800px;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+
+  .dev-name h1{
+    color: #f8f9fa;;
+    font-size: 45px;
+    font-family: 'Montserrat', Times, serif !important;
+  }
+
+  .slogan{
+    margin: 0;
+    height: 2px;
+    width: 27%;
+    background-color: #f8f9fa;;
+    margin-top: 30px;
+  }
+
+  ul{
+    margin: 40px 0 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+
+    li{
+      margin-right: 28px;
+      cursor: pointer;
+    }
+  }
+  .about-desc{
+    width: 50%;
+    margin-top: 40px;
+  }
+}
+.isNotMobile{
+  display: block;
+}
+.about-for-mobile{
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .about-for-mobile{
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    background-color: #0c0b0f;
+    color: #f8f9fa;
+  }
+  .dev-name h1{
+    font-size: 25px !important;
+  }
+  .about-desc{
+    display: none;
+  }
+  .banner{
+    height: 340px;
+    padding-top: 110px;
+    ul{
+      margin-top: 10px;
+      li{
+        margin-right: 8px;
+      }
+    }
+  }
+  hr{
+    margin-top: 0 !important;
+  }
+}
