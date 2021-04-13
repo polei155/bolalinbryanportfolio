@@ -69,7 +69,7 @@
 
     a:hover{
       transition: 0.3s;
-      color: #D04B38 !important;
+      color: #f7f7f7 !important;
       text-decoration: none;
     }
     @media only screen and (max-width: 600px) {
@@ -97,7 +97,7 @@
       }
     }
     li:hover{
-      color: #D04B38;
+      color: #f7f7f7;
       transition: 0.3s;
     }
   }
@@ -110,5 +110,5 @@
   color: white !important;
 }
 .active{
-  color: #D04B38 !important;
+  color: #f3f3f3 !important;
 }
